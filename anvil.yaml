@@ -3,11 +3,12 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: {type: form, module: Homepage}
 package_name: BalTur
 allow_embedding: false
 name: BalTur
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {title: Balance Sheet and Turnover, description: Gather the Balance Sheet and Turnover for a list of companies}
-startup_form: Form1
+startup_form: null
 renamed: true
