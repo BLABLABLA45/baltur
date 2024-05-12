@@ -1,8 +1,10 @@
 unique_ids:
   forms:
     Form1: 7JOBPU7NE5R2JL7KRLQTEQET7RA4YZI5
-  modules: {}
-  server_modules: {}
+  modules:
+    Form1.Module1: '1715507905204295734479262.57733'
+  server_modules:
+    Controller: '1715507910693901041339892.1062'
   assets:
     standard-page.html: WSJCULWGHBKXRBTKN4JNURFGFIMRJOV6
     theme.css: TAKPSFEZCT6DOHKWZ22PQ33B2UM4MOGB
